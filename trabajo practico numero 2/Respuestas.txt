@@ -1,0 +1,12 @@
+2.- f) Cuando se crea una rama nueva, la misma copia la informacion
+de la rama donde se habia creado dicha rama nueva. Al trabajar en la rama
+nueva la informacion que se crea en esa misma no se copiara en la rama principal
+hasta que se haga un merge.
+
+Al ejecutar el comando gitk --all se puede ver la rama principal con sus respectivos
+commits y la rama secundaria con los suyos. Ademas se puede ver
+cuando fueron creadas y por cual usuario, ademas da un detalle
+de los cambios o archivos nuevos creados.
+
+Cuando se realiza el merge los cambios o archivos nuevos realizados
+en la rama secundaria se unen a la rama principal.
